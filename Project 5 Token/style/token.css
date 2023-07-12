@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 53px;
+    height: 80px;
+    background-color: #000;
+    position: sticky;
+    top: 0px;
+}
+
+.top-list {
+    flex-grow: 1;
+}
+
+img {
+    width: 90px;
+    height: 30px;
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 60px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-family: 'Crimson Text', serif;
+    gap: 63px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-left: 65px;
+    position: sticky;
+}
+
+.logo, .nav-list{
+    cursor: pointer;
+} 
+
+nav li {
+    cursor: pointer;
+}
+
+.nav li:hover {
+    color: blanchedalmond;
+}
+
+.btn1{
+    margin-inline-start: 450px; 
+    justify-content: center;
+    padding: 7px 28px;
+    background-color: #bc21ca;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: #0d0c0d;
+    font-weight: 900;
+}
+
+
+
+/* Hero Section */
+.hero{
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.hero-h1{
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 170px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100px;
+    color: #ffffff;
+}
+
+.hero-p{
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    color: #fdfdfd;
+    line-height: 45px;
+}
+
+.btn2 {
+    background: #bc21ca;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    color: #ffffff;
+    padding: 15px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: #0d0c0d;
+    font-weight: 500;
+}
